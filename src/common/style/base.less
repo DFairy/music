@@ -1,0 +1,23 @@
+@import "variable.less";
+
+@font-face {
+    font-family: 'webfont';
+    font-display: swap;
+    src: url('../fonts/webfont/webfont.eot'); /* IE9 */
+    src: url('../fonts/webfont/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/webfont/webfont.woff2') format('woff2'),
+    url('../fonts/webfont/webfont.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/webfont/webfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/webfont/webfont.svg#webfont') format('svg'); /* iOS 4.1- */
+}
+body, html{
+  line-height: 1;
+  font-family:"webfont" 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  background: @color-background;
+  color: @color-text;
+}
